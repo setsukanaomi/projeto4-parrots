@@ -19,6 +19,7 @@ p {
   width: 117px;
   height: 146px;
   margin-right: 34px;
+  margin-bottom: 34px;
   position: relative;
 }
 
@@ -53,12 +54,16 @@ img {
   width: 100px;
 }
 
-.separator {
-  height: 34px;
+.cards {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.cards {
-  margin: 0 122px;
+.content {
+  margin: auto;
+  width: 50%;
   display: flex;
-  justify-content: center;
 }
