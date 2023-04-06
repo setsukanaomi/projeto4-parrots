@@ -10,14 +10,15 @@ p {
 }
 
 .game {
-  margin-top: 40px;
+  margin: 40px 0;
   display: flex;
   justify-content: center;
 }
 
 .card {
-  width: 200px;
-  height: 250px;
+  width: 117px;
+  height: 146px;
+  margin-right: 34px;
   position: relative;
 }
 
@@ -46,4 +47,17 @@ p {
 
 .card:hover .front-face {
   transform: rotateY(-180deg);
+}
+
+img {
+  width: 100px;
+}
+
+.separator {
+  height: 34px;
+}
+.cards {
+  margin: 0 122px;
+  display: flex;
+  justify-content: center;
 }
