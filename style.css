@@ -42,11 +42,11 @@ p {
   transform: rotateY(180deg);
 }
 
-.card:hover .back-face {
+.card.flipped .back-face {
   transform: rotateY(0deg);
 }
 
-.card:hover .front-face {
+.card.flipped .front-face {
   transform: rotateY(-180deg);
 }
 
