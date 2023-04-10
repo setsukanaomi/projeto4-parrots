@@ -98,13 +98,14 @@ function addCards() {
 
 //---------------------------------------------------------------------------------------------
 
-//Função que adiciona o data-test nas cartas----------------------------------------------------
+//Função que adiciona o data-test nas cartas (não adicionei a div da carta com InnerHTML)------
 
 const minhaClasse = document.querySelectorAll(".card");
 
 for (let i = 0; i < minhaClasse.length; i++) {
   minhaClasse[i].setAttribute("data-test", "card");
 }
+
 //----------------------------------------------------------------------------------------------
 
 // Função que vira a carta----------------------------------------------------------------------
