@@ -55,11 +55,17 @@ img {
 }
 
 @media (max-width: 640px) {
-  h1 {
+  p {
     font-size: 46px;
   }
   .cards {
     margin: 0 100px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .game {
+    margin: 40px 40px;
   }
 }
 
